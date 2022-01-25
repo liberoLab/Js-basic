@@ -5,11 +5,11 @@
 let num = 1
 
 if (num > 0) {
-    console.log("양성 입니다.")
+  console.log("양성 입니다.")
 } else if (num < 0) {
-    console.log("음성 입니다.")
+  console.log("음성 입니다.")
 } else {
-    console.log("0 입니다.")
+  console.log("0 입니다.")
 }
 
 /*
@@ -42,17 +42,17 @@ less than 59 : F
 let scores = 90
 
 if (scores >= 90 && scores <= 100) {
-    console.log("A")
+  console.log("A")
 } else if (scores >= 80 && scores <= 89) {
-    console.log("B")
+  console.log("B")
 } else if (scores >= 70 && scores <= 79) {
-    console.log("C")
+  console.log("C")
 } else if (scores >= 60 && scores <= 69) {
-    console.log("D")
+  console.log("D")
 } else if (scores >= 0 && scores <= 59) {
-    console.log("F")
+  console.log("F")
 } else {
-    console.log("오류가 발생 했습니다.")
+  console.log("오류가 발생 했습니다.")
 }
 
 /*
@@ -97,16 +97,15 @@ output: 탈락
 let skills = ["HTML", "CSS", "Javascript", "React"]
 
 if (skills.includes("Javascript") && skills.includes("React")) {
-    console.log("합격")
+  console.log("합격")
 } else if (skills.includes("Javascript") || skills.includes("React")) {
-    console.log("예비")
+  console.log("예비")
 } else {
-    console.log("탈락")
+  console.log("탈락")
 }
 
 /*
 let skills = ["HTML","CSS","Javascript","React"]
-
 
 if(skills.includes("Javascript") && skills.includes("React")){
   console.log("합격!")
