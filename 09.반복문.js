@@ -23,11 +23,11 @@ for (let x = 1; x < 10; x++) {
     }
 }
 
+//배열
 let fruit = ["banana", "apple", "grappe", "mango"]
 for (let i = 0; i < fruit.length; i++) {
     console.log(fruit[i])
 }
-
 
 //while : 정확한 범위를 알지 못할 때 사용.
 let i = 2
