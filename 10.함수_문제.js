@@ -5,7 +5,7 @@
 function greet1() {
     console.log("안녕 내 이름은 제시카야")
 }
-//greet1()
+greet1()
 /*
 funciton greet(){
     console.log("안녕 내 이름은 제시카야")
@@ -23,7 +23,7 @@ funciton greet(){
 function greet2(name) {
     console.log(`안녕 내 이름은 ${name}야`)
 }
-//greet2("에밀리")
+greet2("에밀리")
 /*
 funciton greet(name){
     console.log("안녕 내 이름은",name,"야")
@@ -42,7 +42,7 @@ function greet3(name) {
     console.log(`안녕 내 이름은 ${name}야`)
     return name
 }
-//greet3("에밀리")
+greet3("에밀리")
 /*
 funciton greet(name){
     console.log("안녕 내 이름은",name,"야")
@@ -92,7 +92,7 @@ function meetAt(year, month, day) {
         return `false`
     }
     if (todayDay) {
-        return `${todayYear}년 ${todayMonth}월 ${todayDay}일`
+        return `${todayYear}/ ${todayMonth}/ ${todayDay}`
     }
     if (todayMonth) {
         return `${todayYear}년 ${todayMonth}월`
@@ -102,7 +102,7 @@ function meetAt(year, month, day) {
     }
 
 }
-//console.log(meetAt(2022, 1, 1))
+console.log(meetAt(2022, 1, 1))
 /*
 function meetAt(year, month, date) {
   let todayYear = year;
@@ -153,7 +153,7 @@ function findSmallestElement(arr) {
     return result;
 }
 let samllNum = findSmallestElement([100, 200, 3, 0, 2, 1])
-//console.log(samllNum)
+console.log(samllNum)
 /*
 function findSmallestElement(arr) {
     let result = arr[0];
@@ -199,7 +199,6 @@ function changeCalculate(money) {
 
     }
 }
-
 changeCalculate(12300)
 
 /*
